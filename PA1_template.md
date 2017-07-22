@@ -95,7 +95,7 @@ hist(stepsday$steps,
      xlab = "Total steps per Day")
 ```
 
-![plot of chunk histogram total steps per day](figure/histogram total steps per day-1.png)
+![plot of chunk histogramtotalstepsperday](figure/histogramtotalstepsperday-1.png)
 
 3. Calculate and report the mean and median of the total number of steps taken per day
 
@@ -149,7 +149,7 @@ plot(meanstepsinterval$interval,
      )
 ```
 
-![plot of chunk time series mean steps per interval](figure/time series mean steps per interval-1.png)
+![plot of chunk timeseriesmeanstepsperinterval](figure/timeseriesmeanstepsperinterval-1.png)
 
 
 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
@@ -237,7 +237,7 @@ hist(stepsday2$steps,
      xlab = "Total steps per Day")
 ```
 
-![plot of chunk histogram imputed values](figure/histogram imputed values-1.png)
+![plot of chunk histogramimputedvalues](figure/histogramimputedvalues-1.png)
 
 ```r
 mean(stepsday2$steps)
@@ -334,4 +334,4 @@ xyplot(meansteps ~ interval | daytype,
        )
 ```
 
-![plot of chunk panel plot](figure/panel plot-1.png)
+![plot of chunk panelplot](figure/panelplot-1.png)
